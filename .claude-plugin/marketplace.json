@@ -1,0 +1,11 @@
+{
+  "name": "fableit",
+  "owner": { "name": "tasksolver", "url": "https://github.com/tasksolver" },
+  "plugins": [
+    {
+      "name": "fable-prompt-kit",
+      "source": "./plugins/fable-prompt-kit",
+      "description": "Claude Fable 5 툴킷 — 스킬 6종(강화·진단·인터뷰·사례 수집·팁 수집·이행 감사) + 검증 에이전트 + 스니펫 커맨드"
+    }
+  ]
+}
