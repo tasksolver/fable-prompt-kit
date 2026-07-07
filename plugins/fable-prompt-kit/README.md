@@ -3,7 +3,7 @@
 Claude Fable 5 툴킷 — 프롬프트를 Fable 5 방식으로 다듬고, 기존 프로젝트를 이행하고, 작업 결과를 검증하는 Claude Code 플러그인.
 
 ```text
-/plugin marketplace add tasksolver/fable-prompt-kit
+/plugin marketplace add tasksolver/fableit
 /plugin install fable-prompt-kit@fableit
 ```
 
@@ -20,10 +20,10 @@ Claude Fable 5 툴킷 — 프롬프트를 Fable 5 방식으로 다듬고, 기존
 재작성 없이 진단만 — 6개 카테고리(명확성/구조화/사고 제어/에이전트/출력 형식/안전) 판정표 + 심각도순 발견 사항 + 우선 수정 Top 3.
 
 ### `/deep-interview <막연한 요구>`
-최대 3라운드 선택지형 인터뷰로 요구사항 구체화. 모든 질문에 권장안이 1번 — "다 추천대로" 한마디로 즉시 완성. 결정 요약표에서 사용자 결정과 기본값을 구분.
+최대 3라운드 선택지형 인터뷰로 요구사항 구체화. 취향·되돌리기 비싼 결정·방향 분기만 골라 묻고 나머지는 근거와 함께 기본값으로 채움. 모든 질문에 권장안이 1번 — "다 추천대로" 한마디로 즉시 완성.
 
 ### `/fable-migrate [경로] [--apply]`
-이전 모델용 CLAUDE.md·스킬·에이전트·API 코드를 스캔해 안티패턴 감사:
+쓰던 프로젝트의 모델을 Fable 5로 바꾸기 전·직후에 실행 — 구모델 시절 CLAUDE.md·스킬·API 코드에 남은 안티패턴(400 오류·refusal·품질 저하 원인)을 감사:
 
 | 심각도 | 안티패턴 |
 |---|---|

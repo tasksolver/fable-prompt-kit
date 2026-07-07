@@ -1,6 +1,6 @@
 {
   "name": "fable-prompt-kit",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Claude Fable 5 툴킷 — 프롬프트 강화·진단·인터뷰·사례 수집·팁 수집·이행 감사 스킬 6종 + 검증 서브에이전트 + 공식 스니펫 설치 커맨드. Fable 5 / Opus 4.8에서 검증됨.",
   "author": { "name": "tasksolver", "url": "https://github.com/tasksolver" },
   "homepage": "https://fableit.pages.dev/skills/",

@@ -4,7 +4,7 @@
 
 **Claude Fable 5 프롬프팅 툴킷** — 프롬프트를 Fable 5 방식으로 다듬고, 기존 프로젝트를 이행하고, 결과를 검증하는 Claude Code 플러그인
 
-[![plugin](https://img.shields.io/badge/fable--prompt--kit-v0.3.1-2DD4BF)](./plugins/fable-prompt-kit)
+[![plugin](https://img.shields.io/badge/fable--prompt--kit-v0.3.2-2DD4BF)](./plugins/fable-prompt-kit)
 [![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
 
 [설치](#-설치-30초) · [무엇이 설치되나](#-무엇이-설치되나) · [사용 예시](#-사용-예시) · [언제 어떤 모델에서](#-언제-어떤-모델에서-쓰나)
